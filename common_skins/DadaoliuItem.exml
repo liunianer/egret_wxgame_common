@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DadaoliuItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="251" height="294">
+	<w:Config id="1722ca47265" ></w:Config>
+	<e:Image source="dadaoliu_item_bg_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="" width="230" height="230" source="{data.logo}" horizontalCenter="0" verticalCenter="-25"/>
+	<e:Label horizontalCenter="0" bottom="25" size="28" verticalAlign="middle" textAlign="center" text="{data.title}" textColor="0x000000" bold="true"/>
+</e:Skin>

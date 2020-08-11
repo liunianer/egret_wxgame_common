@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Guanqia_gameitemSkin"
+ xmlns:e="http://ns.egret.com/eui">
+	<e:Group id="g_" anchorOffsetX="71" anchorOffsetY="86.5" x="71" y="86.5">
+		<e:Image source="{data.logo}" height="120" visible="true" width="120" x="11" y="6"/>
+		<e:Image source="guanqia_aditem_bg_png" x="0" y="0"/>
+	</e:Group>
+</e:Skin>

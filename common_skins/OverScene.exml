@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OverSceneSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*"  states="nopass,pass"  width.nopass="1334" height.nopass="750">
+	<w:Declarations>
+
+	</w:Declarations>
+	<w:Config id="16e4f58f7ab" ></w:Config>
+	<e:Image source="index_bg_png" width="2000" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="pass_g" width="1334" height="750" includeIn="pass" horizontalCenter="0" verticalCenter="0">
+		<e:Rect width="2000" height="750" horizontalCenter="0" verticalCenter="0" fillAlpha="0.5"/>
+		<e:Image source="over_passtitle_png" horizontalCenter="0" top="0"/>
+        <e:Scroller id="scr_1" width="1334" horizontalCenter="0" verticalCenter="-80">
+			<e:Group>
+				<e:List id="list_1" itemRendererSkinName="New_gameItem2Skin">
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+						</e:Array>
+					</e:ArrayCollection>
+					<e:layout>
+						<e:TileLayout requestedRowCount="2"/>
+					</e:layout>
+				</e:List>
+			</e:Group>
+		</e:Scroller>
+		<e:Group x="50" height="200" width="667" bottom="50">
+			<e:Image id="xiayiguan" horizontalCenter="0" top="0" source="over_xiayiguan_png"/>
+			<e:Image id="shuangrenmoshi" left="0" bottom="0" source="shuangrenmoshi_png"/>
+			<e:Image id="jinbifanbei" right="0" bottom="0" source="over_sanxingtiaoguo_png" visible="true"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="nopass_g" width="1334" height="750" includeIn="nopass" horizontalCenter="0" verticalCenter="0">
+		<e:Rect width="2000" height="750" horizontalCenter="0" verticalCenter="0" fillAlpha="0.5"/>
+		<e:Image source="over_nopasstitle_png" horizontalCenter="0" top="0"/>
+		<e:Image id="close_btn" source="close_btn_png" x="30" y="30" visible="false"/>
+		<e:Scroller id="scr_2" width="1334" horizontalCenter="0" verticalCenter="-80">
+			<e:Group>
+				<e:List id="list2" itemRendererSkinName="New_gameItem2Skin">
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+							<e:Object dsa=""/>
+						</e:Array>
+					</e:ArrayCollection>
+					<e:layout>
+						<e:TileLayout requestedRowCount="2"/>
+					</e:layout>
+				</e:List>
+			</e:Group>
+		</e:Scroller>
+		<e:Group x="50" height="200" width="667" bottom="50">
+			<e:Image id="chongxinkaishi" source="jixutiaozhan_png" horizontalCenter="0" top="0"/>
+			<e:Image id="haoyoupk" source="haoyoupk_png" left="0" bottom="0"/>
+			<e:Image id="jiaqiangkaiju" right="0" bottom="0" source="jiaqiangkaiju_png" visible="true"/>
+		</e:Group>
+	</e:Group>
+
+
+
+
+	
+
+</e:Skin>

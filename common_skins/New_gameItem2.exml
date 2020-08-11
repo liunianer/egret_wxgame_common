@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="New_gameItem2Skin" width="175" height="175" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1722c74fcec" ></w:Config>
+	<e:Image source="{data.logo}" width="156" height="156" horizontalCenter="0" verticalCenter="0" visible="true"/>
+	<e:Image source="new_guoguan_itembg_png" horizontalCenter="0" verticalCenter="0" visible="true"/>
+</e:Skin>

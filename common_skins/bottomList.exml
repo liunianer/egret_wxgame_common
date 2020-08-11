@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="bottomListSkin" width="1334" height="218" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16e641c6a7e" ></w:Config>
+	<e:Group id="g_" x="0" width="1334" bottom="0">
+		<e:Rect left="0" right="0" top="0" bottom="0"/>
+		<e:Scroller id="scr0" width="1334" height="165" verticalCenter="0">
+		<e:Group>
+			<e:List id="list0" verticalCenter="0" y="0" scaleX="1" scaleY="1" itemRendererSkinName="gameItem2Skin" height="165">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" paddingTop="0" paddingLeft="15" gap="15"/>
+			</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object test="null"/>
+						<e:Object test="null"/>
+						<e:Object test="null"/>
+						<e:Object test="null"/>
+						<e:Object test="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameItem2Skin" width="150" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16e4f3c1f20" ></w:Config>
+	<e:Image horizontalCenter="0" top="0" width="150" height="150" source="{data.logo}"/>
+	<e:Image id="guang" width="150" height="150" x="-150" y="150" mask="mask_" source=""/>
+	<e:Rect id="mask_" height="150" width="150" x="0" y="0"/>
+	<e:Image id="new" bottom="105" scaleY="1" source="" x="90"/>
+	<e:Image id="dian" width="35" height="35" anchorOffsetX="17.5" anchorOffsetY="17.5" x="120" y="27.5"/>
+</e:Skin>

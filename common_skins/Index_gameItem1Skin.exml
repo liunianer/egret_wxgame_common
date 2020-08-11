@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Index_gameItem1Skin"
+	 width="91"
+	height="90" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="{data.logo}" width="80" height="80" horizontalCenter="0" verticalCenter="0" visible="true"/>
+	<e:Image source="index_aditem_bg1_png" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

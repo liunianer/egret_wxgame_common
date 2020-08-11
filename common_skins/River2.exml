@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="River2Skin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="17153b6c2b3" ></w:Config>
+	<e:Image source="index_bg_png" horizontalCenter="0" verticalCenter="0" width="2000"/>
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="index_frame_png" width="2000" height="750" horizontalCenter="0" verticalCenter="0" visible="false"/>
+		<e:Image source="index_frame_png" width="2000" height="750" horizontalCenter="0" verticalCenter="0" visible="false"/>
+		<e:Image source="index_frame_png" width="2000" height="750" horizontalCenter="0" verticalCenter="0" alpha="0.5"/>
+		<e:Image horizontalCenter="0" top="10" source="dadaoliu_title_png"/>
+		<e:Scroller id="scr_" width="1300" height="640" horizontalCenter="0" bottom="0">
+		<e:Group>
+			<e:List id="list_" horizontalCenter="0" width="1300" itemRendererSkinName="DadaoliuItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+				<e:Object/>
+				<e:Object aa="null"/>
+				<e:Object aa="null"/>
+				<e:Object aa="null"/>
+				<e:Object aa="null"/>
+				<e:Object aa="null"/>
+				<e:Object aa="null"/>
+				<e:Object aa="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+				<e:layout>
+					<e:TileLayout horizontalGap="6" requestedColumnCount="5" rowAlign="justifyUsingGap" columnAlign="justifyUsingGap"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+		</e:Scroller>
+		<e:Image id="close" x="65" y="70" anchorOffsetX="44" anchorOffsetY="45.5" source="daoliu_close_png"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RiverSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16e62ddea13" ></w:Config>
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Rect width="1624" height="750" horizontalCenter="0" verticalCenter="0" fillColor="0x0092ff"/>
+
+
+
+		<e:Image source="xiaodaoliu_title_png" left="30" verticalCenter="0"/>
+		<e:Scroller id="scr_1" width="1200" height="700" x="134" y="50">
+		<e:Group>
+			<e:List id="list_1" itemRendererSkinName="XIaodaoliuItemSkin" x="0">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object aa="null"/>
+						<e:Object aa="null"/>
+						<e:Object aa="null"/>
+						<e:Object aa="null"/>
+						<e:Object aa="null"/>
+						<e:Object aa="null"/>
+						<e:Object aa="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+
+			<e:layout>
+				<e:TileLayout horizontalAlign="left" verticalGap="10" paddingLeft="0" paddingTop="0" requestedRowCount="2" horizontalGap="6"/>
+			</e:layout>
+			</e:List>
+		</e:Group>
+		</e:Scroller>
+		<e:Image id="close" x="65" y="70" anchorOffsetX="44" anchorOffsetY="45.5" source="daoliu_close_png"/>
+		<e:Image id="jixuyouxi" source="xiaodaoliu_jixuyouxi_png" horizontalCenter="0" bottom="20"/>
+
+
+	</e:Group>
+
+
+</e:Skin>

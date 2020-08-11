@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="IndexSceneSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16e4f115b7e" ></w:Config>
+	<e:Group id="index_g" height="750" verticalCenter="0" horizontalCenter="0" width="1334">
+		<e:Image id="touch_img" horizontalCenter="0" verticalCenter="0" visible="true" source="index_bg_png" width="1624"/>
+		<e:Group y="180" x="273.129" width="330" height="380">
+			
+					
+					
+				
+			<e:Image id="zhujue_img" source="index_jiqiren0_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="cc_png" left="0" bottom="0"/>
+		</e:Group>
+		<e:Group id="list_g" touchThrough="true" top="10" x="230">
+			
+					
+					
+				
+			<e:List id="list0" horizontalCenter="0" top="0" itemRendererSkinName="Index_gameItem1Skin">
+				
+						
+						
+		
+		
+					
+			<e:layout>
+					
+							
+						
+				<e:TileLayout requestedRowCount="1" requestedColumnCount="4" rowAlign="justifyUsingHeight" columnAlign="justifyUsingGap" horizontalGap="6" paddingLeft="30" paddingRight="30"/>
+			</e:layout>
+			<e:ArrayCollection>
+					
+							
+						
+				<e:Array>
+						
+								
+								
+								
+								
+							
+				<e:Object data="null"/>
+				<e:Object data="null"/>
+				<e:Object data="null"/>
+				<e:Object data="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+			</e:List>
+			<e:layout>
+				
+						
+					
+			<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+		<e:List id="list1" y="30" itemRendererSkinName="Index_gameItem2Skin" x="850">
+			
+						
+					
+			<e:layout>
+				
+							
+						
+					
+						
+						
+			<e:TileLayout requestedRowCount="1" requestedColumnCount="1" rowAlign="justifyUsingHeight" columnAlign="justifyUsingGap" horizontalGap="6" paddingLeft="30" paddingRight="30"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object dsad=""/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		<e:Group y="200" width="380" right="0" height="390">
+			<e:Image id="game_btn" source="start_game_btn_png" anchorOffsetX="100" anchorOffsetY="100" x="190" y="100"/>
+			<e:Image id="jineng_btn" anchorOffsetX="89" anchorOffsetY="89.5" source="index_jinengqianghua_png" x="89" y="300.5"/>
+			<e:Image id="share_btn" source="index_haoyoubishi_png" anchorOffsetX="89" anchorOffsetY="89.5" x="291" y="300.5"/>
+		</e:Group>
+		<e:Group id="more_btn" y="450" width="79" height="74" left="0">
+			<e:Image source="index_gengduoyouxi_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="gengduoyouxigantanhao_png" x="55" y="-20"/>
+		</e:Group>
+
+
+
+
+
+
+
+
+	</e:Group>
+</e:Skin>

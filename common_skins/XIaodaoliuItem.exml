@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="XIaodaoliuItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="251" height="326">
+	<w:Config id="1722c99efc2" ></w:Config>
+	<e:Image source="xiaodaoliu_item_bg_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="" width="230" height="230" source="{data.logo}" x="11" y="14"/>
+	<e:Label horizontalCenter="0" bottom="34" size="30" verticalAlign="middle" textAlign="center" text="{data.title}" textColor="0x000000" bold="true"/>
+</e:Skin>

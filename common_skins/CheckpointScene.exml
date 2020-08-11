@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CheckpointSceneSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16f4540ea45" ></w:Config>
+	<e:Rect width="2000" height="750" fillColor="0x0018A8" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="body" width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image scale9Grid="0,0,750,379" horizontalCenter="0" x="0" scaleX="1" scaleY="1" verticalCenter="0" source="guanqia_bg_png"/>
+		<e:Group horizontalCenter="0" top="0">
+			<e:Image source="zhangjie_bg_png" x="0" y="0"/>
+			<e:Image id="zhangjie" source="zhangjie_1_png" horizontalCenter="0" verticalCenter="-8"/>
+		</e:Group>
+		<e:Group id="g_" width="1334" scaleX="1" scaleY="1" height="400" top="100" horizontalCenter="0">
+			<e:Rect width="20" height="20" x="49.295" y="224.838" anchorOffsetX="10" anchorOffsetY="10" visible="false"/>
+			<e:Rect width="20" height="20" x="170.476" y="105.253" anchorOffsetX="10" anchorOffsetY="10" visible="false"/>
+			<e:Rect width="20" height="20" x="320.646" y="190.046" anchorOffsetX="10" anchorOffsetY="10" visible="false"/>
+			<e:Rect width="20" height="20" x="422.211" y="327.14" anchorOffsetX="10" anchorOffsetY="10" visible="false"/>
+			<e:Rect width="20" height="20" x="593.809" y="279.442" anchorOffsetX="10" anchorOffsetY="10" visible="false"/>
+			<e:Rect width="20" height="20" x="540.081" y="143.399" anchorOffsetX="10" anchorOffsetY="10" visible="false"/>
+			<e:Rect width="20" height="20" x="729.316" y="84.36" anchorOffsetX="10" anchorOffsetY="10" visible="false"/>
+			<e:Rect width="20" height="20" x="910.585" y="178.003" anchorOffsetX="10" anchorOffsetY="10" visible="false"/>
+			<e:Rect width="20" height="20" x="1090.527" y="278.285" anchorOffsetX="10" anchorOffsetY="10" visible="false"/>
+			<e:Rect width="20" height="20" x="1220.017" y="159.501" anchorOffsetX="10" anchorOffsetY="10" visible="false"/>
+			<e:Scroller id="scr" top="0" bottom="0" left="0" right="0" width="1334" visible="true">
+			<e:Group id="scr_g">
+				<e:List id="list" height="400" x="0" y="0">
+				<e:layout>
+					<e:BasicLayout/>
+				</e:layout>
+				</e:List>
+			</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:List id="ad_list0" scaleX="1" scaleY="1" visible="true" itemRendererSkinName="Guanqia_gameitemSkin" x="301.367" y="22.622">
+			
+							
+									
+									
+								
+							
+							
+						
+			<e:layout>
+				
+								
+										
+									
+							
+							
+			<e:TileLayout requestedRowCount="1" requestedColumnCount="1"/>
+			</e:layout>
+			<e:ArrayCollection>
+				
+								
+										
+														
+													
+									
+									
+							
+							
+			<e:Array>
+					
+									
+											
+															
+															
+														
+										
+										
+									
+								
+								
+							
+				<e:Object htr=""/>
+				<e:Object htr=""/>
+			</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		<e:List id="ad_list1" scaleX="1" scaleY="1" visible="true" itemRendererSkinName="Guanqia_gameitemSkin" x="718.799" y="352.817">
+			<e:layout>
+				
+			
+		
+			<e:TileLayout requestedRowCount="1" requestedColumnCount="1"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object gfd=""/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		<e:Image id="left_btn" source="guankaxiayiye_btn_png" x="100" y="440"/>
+		<e:Image id="rigth_btn" source="guankaxiayiye_btn2_png" y="440" x="1105"/>
+		<e:Image id="pkbtn" source="guanqia_pk_png" x="998" y="20"/>
+		<e:Image id="jinengbtn" source="index_jinengqianghua_png" x="1156" y="20" width="111" height="112"/>
+		
+	</e:Group>
+	
+</e:Skin>
